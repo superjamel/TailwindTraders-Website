@@ -94,7 +94,7 @@ class ShoppingCart extends Component {
                 {t => (
                     <Fragment>
                         {loading && isPulling ? <LoadingSpinner /> : <Fragment>
-                            <h2 className="shopping-card__title grid__heading">{t("shoppingCart.title")}</h2>
+                            <h2 className="shopping-card__title grid__heading">{t("shoppingCart.title" + "Changed")}</h2>
                             <div className="shopping-card__grid">
                                 {shoppingCart && shoppingCart.map((shoppingCart, index) => (
                                     <ShoppingCartCard {...shoppingCart} updateQty={this.updateQty} key={index} />

@@ -15,7 +15,7 @@ class HomeContainer extends Component {
             ],
             defaultProducts: [
                 {
-                    title: "PowerApps Tools",
+                    title: "Power Tools",
                     imageUrl: Powertools,
                     cssClass: "grid__item-a",
                     url: "/list/diytools"
